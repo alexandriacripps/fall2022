@@ -1,0 +1,4 @@
+import os
+sourceDir = os.path.dirname(_file_)
+filePath = os.path.join(sourceDir, "Popular_Baby_Names.csv")
+f = open(filePath)
